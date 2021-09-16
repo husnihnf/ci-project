@@ -19,7 +19,7 @@ class Product extends BaseController{
 
     public function catalog(){
         $data = [
-            'title' => 'Product Catalog',
+            'title' => 'Our Product Catalog',
             'brand' => 'Smartphone Xiaomi',
             'product_name' => ['Redmi Note 9', 'Redmi Note 9 Pro', 'Mi Note 10', 'Mi Note 10 Pro']
         ];
